@@ -1,0 +1,66 @@
+/* 
+    CSS Guide 
+
+    1.  General Styles (Normalize)
+
+ */
+
+
+ /* 1. ---General Styles--- */
+
+body {
+   margin: 0px;
+   padding: 0px;
+   font-family:Arial, Helvetica, sans-serif;
+}
+
+/* ---General rules - scales images, videos to size of container--- */
+
+img, embed, object, video, picture {
+   max-width: 100%; 
+ }
+
+p, h1, h2, h3, h4, h5 {
+   margin: 0px; 
+   padding: 0px;
+}
+
+a {
+   text-decoration: none;
+   transition: all .5s ease-in-out;
+}
+
+input, textarea {
+   display: block;
+   margin: 0;
+   padding: 0;
+}
+
+.box {
+   background-color: rgb(80, 80, 80);
+   color: rgb(255, 252, 252);
+   padding: 20px;
+   text-align: center;
+   margin-top: 10px;
+   margin-bottom:10px;
+ }
+
+ .hero-img {
+   padding: 140px 0;
+   text-align: center;
+ }
+
+ .product-img {
+   padding: 80px 0;
+   text-align: center;
+ }
+
+ .service-img {
+   padding: 120px 0;
+   text-align: center;
+ }
+
+ .footer-img {
+   padding: 80px 0;
+   text-align: center;
+ }
